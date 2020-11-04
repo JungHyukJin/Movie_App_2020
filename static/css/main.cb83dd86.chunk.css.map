@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/Movie.css"],"names":[],"mappings":"AAAA,KACE,qBAAuB,CACvB,UACF","file":"main.cb83dd86.chunk.css","sourcesContent":["body {\r\n  background-color: black;\r\n  color: white;\r\n}\r\n"]}
