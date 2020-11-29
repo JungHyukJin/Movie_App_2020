@@ -4,13 +4,11 @@
 
 body {
   background-color: rgb(41, 34, 34);
-  margin: auto;
-  padding: 0;
-  height: 100%;
 }
 
 .container {
-  margin: 100px 20px;
+  padding: 100px 20px;
+  margin: auto;
 }
 
 .nav {
@@ -42,7 +40,6 @@ body {
 }
 
 .movies {
-  margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 150px 50px;
@@ -56,11 +53,12 @@ body {
 
 .movies .movie {
   padding: 10px;
-  width: 100%;
   margin: auto;
   background-color: black;
   border-radius: 40px;
   display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .movie img {
@@ -112,13 +110,8 @@ body {
     padding: 5px 10px;
   }
 
-  .genres {
-    flex-wrap: wrap;
-  }
-
   .movies {
     grid-template-columns: 1fr;
-    height: 100%;
   }
 
   .movie {
